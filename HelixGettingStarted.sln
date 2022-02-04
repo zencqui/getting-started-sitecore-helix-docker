@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{32C23D0C-37EF-475A-A3B2-873D1F5C81F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{F38C45E8-FA46-422C-A0A1-A56BAE913956}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{1653F84F-08DA-4245-BD1D-EC193D2D1DDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{CB31692E-53EF-41E3-97FA-6860296A5904}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixGettingStarted.Foundation.Configuration", "src\Foundation\Configuration\code\HelixGettingStarted.Foundation.Configuration\HelixGettingStarted.Foundation.Configuration.csproj", "{DEE863A4-3B53-4F04-A46F-2EC272AFE683}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PageContent", "PageContent", "{70958FDC-9D85-42E8-A19A-FABB4BB224EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixGettingStarted.Feature.PageContent", "src\Feature\PageContent\code\HelixGettingStarted.Feature.PageContent\HelixGettingStarted.Feature.PageContent.csproj", "{9E9AC3C5-C2BC-474A-92B9-2C98F558B446}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DEE863A4-3B53-4F04-A46F-2EC272AFE683} = {DEE863A4-3B53-4F04-A46F-2EC272AFE683}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{87EB141C-CF56-4227-819E-C4481778BBCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixGettingStarted.Project.Website", "src\Project\Website\code\HelixGettingStarted.Project.Website\HelixGettingStarted.Project.Website.csproj", "{4FB64B66-4DB8-4CF3-A3FE-A90F7433F738}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DEE863A4-3B53-4F04-A46F-2EC272AFE683} = {DEE863A4-3B53-4F04-A46F-2EC272AFE683}
+		{9E9AC3C5-C2BC-474A-92B9-2C98F558B446} = {9E9AC3C5-C2BC-474A-92B9-2C98F558B446}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Staging|Any CPU = Staging|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEE863A4-3B53-4F04-A46F-2EC272AFE683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE863A4-3B53-4F04-A46F-2EC272AFE683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEE863A4-3B53-4F04-A46F-2EC272AFE683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEE863A4-3B53-4F04-A46F-2EC272AFE683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEE863A4-3B53-4F04-A46F-2EC272AFE683}.Staging|Any CPU.ActiveCfg = Staging|Any CPU
+		{DEE863A4-3B53-4F04-A46F-2EC272AFE683}.Staging|Any CPU.Build.0 = Staging|Any CPU
+		{9E9AC3C5-C2BC-474A-92B9-2C98F558B446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E9AC3C5-C2BC-474A-92B9-2C98F558B446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E9AC3C5-C2BC-474A-92B9-2C98F558B446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E9AC3C5-C2BC-474A-92B9-2C98F558B446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E9AC3C5-C2BC-474A-92B9-2C98F558B446}.Staging|Any CPU.ActiveCfg = Staging|Any CPU
+		{9E9AC3C5-C2BC-474A-92B9-2C98F558B446}.Staging|Any CPU.Build.0 = Staging|Any CPU
+		{4FB64B66-4DB8-4CF3-A3FE-A90F7433F738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB64B66-4DB8-4CF3-A3FE-A90F7433F738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB64B66-4DB8-4CF3-A3FE-A90F7433F738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB64B66-4DB8-4CF3-A3FE-A90F7433F738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FB64B66-4DB8-4CF3-A3FE-A90F7433F738}.Staging|Any CPU.ActiveCfg = Staging|Any CPU
+		{4FB64B66-4DB8-4CF3-A3FE-A90F7433F738}.Staging|Any CPU.Build.0 = Staging|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CB31692E-53EF-41E3-97FA-6860296A5904} = {1653F84F-08DA-4245-BD1D-EC193D2D1DDA}
+		{DEE863A4-3B53-4F04-A46F-2EC272AFE683} = {CB31692E-53EF-41E3-97FA-6860296A5904}
+		{70958FDC-9D85-42E8-A19A-FABB4BB224EB} = {F38C45E8-FA46-422C-A0A1-A56BAE913956}
+		{9E9AC3C5-C2BC-474A-92B9-2C98F558B446} = {70958FDC-9D85-42E8-A19A-FABB4BB224EB}
+		{87EB141C-CF56-4227-819E-C4481778BBCA} = {32C23D0C-37EF-475A-A3B2-873D1F5C81F3}
+		{4FB64B66-4DB8-4CF3-A3FE-A90F7433F738} = {87EB141C-CF56-4227-819E-C4481778BBCA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {719C2AD5-E6E5-493B-BF5D-71B61A0489E3}
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
