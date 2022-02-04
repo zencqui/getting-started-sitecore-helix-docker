@@ -4,11 +4,13 @@ ARG BASE_IMAGE
 ARG SXA_IMAGE
 ARG SPE_IMAGE
 ARG TOOLING_IMAGE
+ARG DEVEX_RESOURCES_IMAGE
 ARG SOLUTION_IMAGE
 ARG HORIZON_RESOURCES_IMAGE
 
 FROM ${SOLUTION_IMAGE} as solution
 FROM ${TOOLING_IMAGE} as tooling
+FROM ${DEVEX_RESOURCES_IMAGE} AS devex_resources
 FROM ${SPE_IMAGE} as spe
 FROM ${SXA_IMAGE} as sxa
 FROM ${HORIZON_RESOURCES_IMAGE} as horizon_resources
@@ -21,6 +23,9 @@ SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPref
 COPY --from=tooling \tools\ \tools\
 
 WORKDIR C:\inetpub\wwwroot
+
+# Copy the Sitecore Management Services Module
+COPY --from=devex_resources C:\module\cm\content .\
 
 # Add SPE module
 COPY --from=spe \module\cm\content .\
