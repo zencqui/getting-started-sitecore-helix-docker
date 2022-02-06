@@ -1,0 +1,19 @@
+﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
+---
+File: |
+  D:\getting-started-sitecore-helix-docker\src\Project\Website\serialization\layouts\Website.yml
+ID: "1ea72784-07fc-4964-9d67-ccf241a1ab44"
+Parent: "da04b275-8838-4a3a-afee-817cf1fdd2eb"
+Template: "93227c5d-4fef-474d-94c0-f252ec8e8219"
+Path: /sitecore/layout/Layouts/Project/Website
+Signature: RoMOscW1yjmCtjLRxAcexuDQepssEIk/B6K+aWRvYHE=
+Modified: 637797371620628444
+---
+File: |
+  D:\getting-started-sitecore-helix-docker\src\Project\Website\serialization\layouts\Website\Default.yml
+ID: "512d7f9a-8ab3-4d63-8e37-592f62c52cf9"
+Parent: "1ea72784-07fc-4964-9d67-ccf241a1ab44"
+Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
+Path: /sitecore/layout/Layouts/Project/Website/Default
+Signature: tiTctE+WAg5+/xICApnCMC3MkmvJtjhXmnrZ/B/xFXQ=
+Modified: 637797371620648536

@@ -11,18 +11,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{CB31692E-53EF-41E3-97FA-6860296A5904}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixGettingStarted.Foundation.Configuration", "src\Foundation\Configuration\code\HelixGettingStarted.Foundation.Configuration\HelixGettingStarted.Foundation.Configuration.csproj", "{DEE863A4-3B53-4F04-A46F-2EC272AFE683}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PageContent", "PageContent", "{70958FDC-9D85-42E8-A19A-FABB4BB224EB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixGettingStarted.Feature.PageContent", "src\Feature\PageContent\code\HelixGettingStarted.Feature.PageContent\HelixGettingStarted.Feature.PageContent.csproj", "{9E9AC3C5-C2BC-474A-92B9-2C98F558B446}"
-	ProjectSection(ProjectDependencies) = postProject
-		{DEE863A4-3B53-4F04-A46F-2EC272AFE683} = {DEE863A4-3B53-4F04-A46F-2EC272AFE683}
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\PageContent\PageContent.module.json = src\Feature\PageContent\PageContent.module.json
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{87EB141C-CF56-4227-819E-C4481778BBCA}"
+	ProjectSection(SolutionItems) = preProject
+		src\Project\Website\HelixGettingStarted.module.json = src\Project\Website\HelixGettingStarted.module.json
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixGettingStarted.Project.Website", "src\Project\Website\code\HelixGettingStarted.Project.Website\HelixGettingStarted.Project.Website.csproj", "{4FB64B66-4DB8-4CF3-A3FE-A90F7433F738}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixGettingStarted.Foundation.Configuration", "src\Foundation\Configuration\code\HelixGettingStarted.Foundation.Configuration.csproj", "{DEE863A4-3B53-4F04-A46F-2EC272AFE683}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixGettingStarted.Feature.PageContent", "src\Feature\PageContent\code\HelixGettingStarted.Feature.PageContent.csproj", "{9E9AC3C5-C2BC-474A-92B9-2C98F558B446}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixGettingStarted.Project.Website", "src\Project\Website\code\HelixGettingStarted.Project.Website.csproj", "{4FB64B66-4DB8-4CF3-A3FE-A90F7433F738}"
 	ProjectSection(ProjectDependencies) = postProject
 		{DEE863A4-3B53-4F04-A46F-2EC272AFE683} = {DEE863A4-3B53-4F04-A46F-2EC272AFE683}
 		{9E9AC3C5-C2BC-474A-92B9-2C98F558B446} = {9E9AC3C5-C2BC-474A-92B9-2C98F558B446}
@@ -59,10 +62,10 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CB31692E-53EF-41E3-97FA-6860296A5904} = {1653F84F-08DA-4245-BD1D-EC193D2D1DDA}
-		{DEE863A4-3B53-4F04-A46F-2EC272AFE683} = {CB31692E-53EF-41E3-97FA-6860296A5904}
 		{70958FDC-9D85-42E8-A19A-FABB4BB224EB} = {F38C45E8-FA46-422C-A0A1-A56BAE913956}
-		{9E9AC3C5-C2BC-474A-92B9-2C98F558B446} = {70958FDC-9D85-42E8-A19A-FABB4BB224EB}
 		{87EB141C-CF56-4227-819E-C4481778BBCA} = {32C23D0C-37EF-475A-A3B2-873D1F5C81F3}
+		{DEE863A4-3B53-4F04-A46F-2EC272AFE683} = {CB31692E-53EF-41E3-97FA-6860296A5904}
+		{9E9AC3C5-C2BC-474A-92B9-2C98F558B446} = {70958FDC-9D85-42E8-A19A-FABB4BB224EB}
 		{4FB64B66-4DB8-4CF3-A3FE-A90F7433F738} = {87EB141C-CF56-4227-819E-C4481778BBCA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution

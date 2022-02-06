@@ -1,0 +1,23 @@
+{
+  "namespace": "Project.HelixGettingStarted",
+  "items": {
+    "includes": [
+      {
+        "name": "layouts",
+        "path": "/sitecore/layout/Layouts/Project/Website",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "media",
+        "path": "/sitecore/media library/Images",
+        "allowedPushOperations": "CreateOnly"
+      },
+      {
+        "name": "templates",
+        "path": "/sitecore/templates/Project/Website",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      }
+    ]
+  }
+}
+

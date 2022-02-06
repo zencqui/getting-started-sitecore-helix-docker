@@ -273,3 +273,4 @@ __pycache__/
 
 
 !/**/.gitkeep
+/.sitecore/user.json

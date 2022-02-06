@@ -1,0 +1,109 @@
+﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
+---
+File: |
+  D:\getting-started-sitecore-helix-docker\src\Feature\PageContent\serialization\templates\PageContent.yml
+ID: "6f3daa3a-2a70-49e2-b2ce-c4a3bde83ba5"
+Parent: "8f343079-3cc5-4ef7-bc27-32addb46f45e"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/PageContent
+Signature: CbsGHEBrZrTY6nRS3RSvsWtY6oNCVAgMSnbFX278kgw=
+Modified: 637797371620428449
+---
+File: |
+  D:\getting-started-sitecore-helix-docker\src\Feature\PageContent\serialization\templates\PageContent\Body Copy.yml
+ID: "58f1f48b-c87e-4db6-b206-c28320b75d17"
+Parent: "6f3daa3a-2a70-49e2-b2ce-c4a3bde83ba5"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/PageContent/Body Copy
+Signature: XxEUad453YcT8kxQInweEakXUgIg+YwIwH4N8gW8Ppg=
+Modified: 637797371620448503
+---
+File: |
+  D:\getting-started-sitecore-helix-docker\src\Feature\PageContent\serialization\templates\PageContent\sample template.yml
+ID: "c38943b5-0190-43c2-8c29-3d550a74b866"
+Parent: "6f3daa3a-2a70-49e2-b2ce-c4a3bde83ba5"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/PageContent/sample template
+Signature: D8/Vm1jZZcv8RxEYNS5hhsrzLISDZmdUNreMjnwP+M0=
+Modified: 637797372944725929
+---
+File: |
+  D:\getting-started-sitecore-helix-docker\src\Feature\PageContent\serialization\templates\PageContent\Hero Image.yml
+ID: "a9a2f8b4-dfc9-49eb-8413-9f728461d327"
+Parent: "6f3daa3a-2a70-49e2-b2ce-c4a3bde83ba5"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/PageContent/Hero Image
+Signature: p1WG03xE08UYbkOavFLl8DmTINSsGoctVXvVINu8ZqI=
+Modified: 637797371620458411
+---
+File: |
+  D:\getting-started-sitecore-helix-docker\src\Feature\PageContent\serialization\templates\PageContent\Hero Image\Hero Image Content.yml
+ID: "fa8ffd4b-866d-453e-be42-a55537ed3a94"
+Parent: "a9a2f8b4-dfc9-49eb-8413-9f728461d327"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/PageContent/Hero Image/Hero Image Content
+Signature: ArhnrVTcK7j36wdMWwqA9c2A5uMXTL/DvfXH2RmqQyI=
+Modified: 637797371620488488
+---
+File: |
+  D:\getting-started-sitecore-helix-docker\src\Feature\PageContent\serialization\templates\PageContent\Body Copy\Body Copy Content.yml
+ID: "2b11c4d5-0094-4fb5-9fe1-d20cb458fc20"
+Parent: "58f1f48b-c87e-4db6-b206-c28320b75d17"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/PageContent/Body Copy/Body Copy Content
+Signature: SxFxgdJa8TnFWYK0Jb7zVFxEcqwyzgU0s2VNzmH7/VM=
+Modified: 637797371620478406
+---
+File: |
+  D:\getting-started-sitecore-helix-docker\src\Feature\PageContent\serialization\templates\PageContent\sample template\sample template content.yml
+ID: "48fbd695-5ed0-44eb-b8da-eaba6a9e5c6b"
+Parent: "c38943b5-0190-43c2-8c29-3d550a74b866"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/PageContent/sample template/sample template content
+Signature: CSMWtnjT3sLp4XIM3QIHC+Vlszn3N4GJ4p+ipHV/Jm8=
+Modified: 637797372944745787
+---
+File: |
+  D:\getting-started-sitecore-helix-docker\src\Feature\PageContent\serialization\templates\PageContent\Body Copy\Body Copy Content\Body Copy.yml
+ID: "5ce04a9c-e40e-4576-b3b3-a84d4c31b898"
+Parent: "2b11c4d5-0094-4fb5-9fe1-d20cb458fc20"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/PageContent/Body Copy/Body Copy Content/Body Copy
+Signature: d+2En3cLGmrJN4hJk9lYMVorVPnXM0fxWFo+lpPUfAo=
+Modified: 637797371620518533
+---
+File: |
+  D:\getting-started-sitecore-helix-docker\src\Feature\PageContent\serialization\templates\PageContent\Body Copy\Body Copy Content\Title.yml
+ID: "b2926b8f-afe5-4fa4-9a05-c96beb56bc6f"
+Parent: "2b11c4d5-0094-4fb5-9fe1-d20cb458fc20"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/PageContent/Body Copy/Body Copy Content/Title
+Signature: Q6vFB6KePRVTRFfH/aX5NsAJLDhb8Y6QSGcHE0cIGP8=
+Modified: 637797371620508404
+---
+File: |
+  D:\getting-started-sitecore-helix-docker\src\Feature\PageContent\serialization\templates\PageContent\Hero Image\Hero Image Content\Hero Image.yml
+ID: "6c4bcadb-9532-4e9c-90d9-f04e112686d8"
+Parent: "fa8ffd4b-866d-453e-be42-a55537ed3a94"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/PageContent/Hero Image/Hero Image Content/Hero Image
+Signature: ElqfbzG+kIKgr9V9hIHrC0mBjQjYDb02W06bk8WI+20=
+Modified: 637797371620538583
+---
+File: |
+  D:\getting-started-sitecore-helix-docker\src\Feature\PageContent\serialization\templates\PageContent\Hero Image\Hero Image Content\Hero Logo.yml
+ID: "de2b2c0b-1df3-476a-b946-24bf48bdea45"
+Parent: "fa8ffd4b-866d-453e-be42-a55537ed3a94"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/PageContent/Hero Image/Hero Image Content/Hero Logo
+Signature: 298aRosov+/tLC1GV6W6OWFuDeq2yRG/gZRQRKVGADk=
+Modified: 637797371620548537
+---
+File: |
+  D:\getting-started-sitecore-helix-docker\src\Feature\PageContent\serialization\templates\PageContent\sample template\sample template content\title.yml
+ID: "9a804de1-e589-4a6d-9219-176e07c7d915"
+Parent: "48fbd695-5ed0-44eb-b8da-eaba6a9e5c6b"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/PageContent/sample template/sample template content/title
+Signature: /iBmcORop1VYgt37joNKKHKWsDi9N9swrKEKvXEHVAs=
+Modified: 637797372944755792

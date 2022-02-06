@@ -1,0 +1,37 @@
+﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
+---
+File: |
+  D:\getting-started-sitecore-helix-docker\src\Project\Website\serialization\templates\Website.yml
+ID: "4daeba39-2aa9-45a2-991a-6548689e29bb"
+Parent: "825b30b4-b40b-422e-9920-23a1b6bda89c"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Project/Website
+Signature: WGZWPzRLUdLBVhtwwfzBlFc0WGY61Cf3yDBOQABOM98=
+Modified: 637797371622591139
+---
+File: |
+  D:\getting-started-sitecore-helix-docker\src\Project\Website\serialization\templates\Website\Page Types\Default.yml
+ID: "1644cf03-406c-492f-9a7c-42bd02194f5e"
+Parent: "b74d9b30-2a4f-412f-b1d9-9dd5884df50a"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Website/Page Types/Default
+Signature: ht7h93T3lrxwA6jI5g/l0mQ7D1a5S5+YOYuJULpD7Q0=
+Modified: 637797371623057513
+---
+File: |
+  D:\getting-started-sitecore-helix-docker\src\Project\Website\serialization\templates\Website\Page Types.yml
+ID: "b74d9b30-2a4f-412f-b1d9-9dd5884df50a"
+Parent: "4daeba39-2aa9-45a2-991a-6548689e29bb"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Project/Website/Page Types
+Signature: gbrrUBVYqGCDWYYiUO0YndImRZYY+EaJEBwQTL6ZBk4=
+Modified: 637797371622915936
+---
+File: |
+  D:\getting-started-sitecore-helix-docker\src\Project\Website\serialization\templates\Website\Page Types\Default\__Standard Values.yml
+ID: "efe2cecf-aba7-4e9a-88b7-a881fd8c3e92"
+Parent: "1644cf03-406c-492f-9a7c-42bd02194f5e"
+Template: "1644cf03-406c-492f-9a7c-42bd02194f5e"
+Path: /sitecore/templates/Project/Website/Page Types/Default/__Standard Values
+Signature: cKCPhyKZyb1ZCPWgW3Rs5uEXFM3yIjJjEr5b9I/U9uM=
+Modified: 637797371623077570

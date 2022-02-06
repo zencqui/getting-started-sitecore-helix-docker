@@ -1,0 +1,28 @@
+﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
+---
+File: |
+  D:\getting-started-sitecore-helix-docker\src\Feature\PageContent\serialization\layouts\PageContent.yml
+ID: "fd76a9d5-fd09-4aad-95c4-2e8b816a3b75"
+Parent: "da61ad50-8fdb-4252-a68f-b4470b1c9fe8"
+Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
+Path: /sitecore/layout/Renderings/Feature/PageContent
+Signature: PP0t1XnEXDbudOHlDFCRAlEiC9aQC2xJQKtG39BjNIg=
+Modified: 637797371620558435
+---
+File: |
+  D:\getting-started-sitecore-helix-docker\src\Feature\PageContent\serialization\layouts\PageContent\Body Copy.yml
+ID: "01ba30f7-fc32-4507-9edc-c9031d058c59"
+Parent: "fd76a9d5-fd09-4aad-95c4-2e8b816a3b75"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/Feature/PageContent/Body Copy
+Signature: jrv7jE3JY1Al03NiKYhwYotWmJ21tRBP4MBA0QzF8Fk=
+Modified: 637797371620588464
+---
+File: |
+  D:\getting-started-sitecore-helix-docker\src\Feature\PageContent\serialization\layouts\PageContent\Hero Image.yml
+ID: "901885ed-9422-4a0e-8d64-5111425739ce"
+Parent: "fd76a9d5-fd09-4aad-95c4-2e8b816a3b75"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/Feature/PageContent/Hero Image
+Signature: LbVqH2tmpeaqDn15Cy6M/Gh+hQZnXmMT41/cCS4x7mM=
+Modified: 637797371620598449

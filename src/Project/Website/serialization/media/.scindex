@@ -1,0 +1,28 @@
+﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
+---
+File: |
+  D:\getting-started-sitecore-helix-docker\src\Project\Website\serialization\media\Images.yml
+ID: "15451229-7534-44ef-815d-d93d6170bfcb"
+Parent: "3d6658d8-a0bf-4e75-b3e2-d050fabcf4e1"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Images
+Signature: PUx3vLN/L7VLUCq/WkAjJF+YerGjcm0PtT5EJvtxBJU=
+Modified: 637797371620658494
+---
+File: |
+  D:\getting-started-sitecore-helix-docker\src\Project\Website\serialization\media\Images\shutterstock_750726223.yml
+ID: "6b9b9a1d-1e2e-4764-a259-c7a07fc555bd"
+Parent: "15451229-7534-44ef-815d-d93d6170bfcb"
+Template: "daf085e8-602e-43a6-8299-038ff171349f"
+Path: /sitecore/media library/Images/shutterstock_750726223
+Signature: yU1kU8ASD3Mimfkt9S22Es7EBjP4UiF9ZTHpTcQ8va8=
+Modified: 637797371622581172
+---
+File: |
+  D:\getting-started-sitecore-helix-docker\src\Project\Website\serialization\media\Images\Hero Logo.yml
+ID: "5f1c84d2-5ab6-4b19-95c9-52114d65e374"
+Parent: "15451229-7534-44ef-815d-d93d6170bfcb"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: /sitecore/media library/Images/Hero Logo
+Signature: 3ZMfnfH6L5TTac3n+Djg2mM4GezmbIx7tfBbPU0Xliw=
+Modified: 637797371620718527
