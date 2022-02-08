@@ -16,6 +16,16 @@
         "name": "templates",
         "path": "/sitecore/templates/Project/Website",
         "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "content datasource",
+        "path": "/sitecore/content/Global Datasources",
+        "allowedPushOperations": "CreateOnly"
+      },
+      {
+        "name": "content",
+        "path": "/sitecore/content/Home/getting started with sitecore helix",
+        "allowedPushOperations": "CreateOnly"
       }
     ]
   }

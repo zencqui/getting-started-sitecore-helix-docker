@@ -1,0 +1,19 @@
+﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
+---
+File: |
+  D:\getting-started-sitecore-helix-docker\src\Project\Website\serialization\content datasource\Global Datasources.yml
+ID: "cf0a68cc-6006-4033-a3c3-cd643e355565"
+Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Global Datasources
+Signature: FO0f6oqd1rwQzKsfrsuYKF4hjnEkurbtPVeX9ahpYUI=
+Modified: 637798952777979467
+---
+File: |
+  D:\getting-started-sitecore-helix-docker\src\Project\Website\serialization\content datasource\Global Datasources\Hero Image.yml
+ID: "5befb073-8941-4739-af30-3cb23feadcb1"
+Parent: "cf0a68cc-6006-4033-a3c3-cd643e355565"
+Template: "a9a2f8b4-dfc9-49eb-8413-9f728461d327"
+Path: /sitecore/content/Global Datasources/Hero Image
+Signature: ChjZ8MOwUt4pLRD6N/b1/IxmgmxvIrucW8S6pnDPexk=
+Modified: 637798952778011943

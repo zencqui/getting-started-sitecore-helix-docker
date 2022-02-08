@@ -49,7 +49,7 @@ COPY --from=solution \artifacts\transforms\ \transforms\solution\
 COPY .\transforms\ \transforms\role\
 
 # Perform solution transforms
-RUN C:\tools\scripts\Invoke-XdtTransform.ps1 -Path .\ -XdtPath C:\transforms\solution\Project\Website\code\HelixGettingStarted.Project.Website
+RUN C:\tools\scripts\Invoke-XdtTransform.ps1 -Path .\ -XdtPath C:\transforms\solution\Project\Website
 
 # Perform role transforms
 RUN C:\tools\scripts\Invoke-XdtTransform.ps1 -Path .\ -XdtPath C:\transforms\role

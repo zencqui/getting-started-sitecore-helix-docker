@@ -1,0 +1,67 @@
+﻿---
+ID: "6adb0569-fb10-4220-9b22-3051089a37c2"
+Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Template: "1644cf03-406c-492f-9a7c-42bd02194f5e"
+Path: /sitecore/content/Home/getting started with sitecore helix
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220204T081345Z
+    - ID: "5ce04a9c-e40e-4576-b3b3-a84d4c31b898"
+      Hint: Body Copy
+      Value: |
+        <h2>Configuring a Development Environment for Sitecore</h2>
+        <ul>
+            <li>Windows Operating System</li>
+            <li>Visual Studio 2019</li>
+            <li>SQL Server 2017</li>
+            <li>Solr 7.5</li>
+        </ul>
+        <h2>Installing Sitecore</h2>
+        <ul>
+            <li>dev.sitecore.net - Installation files</li>
+            <li>Developer Trial License</li>
+            <li>Sitecore Install Assistant (SIA)</li>
+            <li>Sitecore Installation Framework (SIF)</li>
+            <li>IIS websites, file system, SQL Databases, and Solr Server</li>
+            <li>Back up working websites frequently</li>
+        </ul>
+        <h2>Setting Up a Sitecore MVC Visual Studio Project Using Helix</h2>
+        <ul>
+            <li>3 Layers: Project, Feature, Foundation</li>
+            <li>Project Layer - Presentation</li>
+            <li>Feature Layer - Components and Functionality</li>
+            <li>Foundation Layer - Core Functionality</li>
+        </ul>
+        <h2>Working with Sitecore Layouts, Renderings, and Data Templates</h2>
+        <ul>
+            <li>Layout - Presentation</li>
+            <li>Data Template - Content</li>
+            <li>Page Type Template - Content &amp; Presentation</li>
+            <li>Placeholder - Location</li>
+        </ul>
+        <h2>Studying Sitecore</h2>
+        <ul>
+            <li>Sitecore.chat</li>
+            <li>Sitecore.stackexchange.com</li>
+            <li>Dev.sitecore.net</li>
+            <li>Future Sitecore Courses on Pluralsight!</li>
+        </ul>
+        <p>For further information, please go to the <a rel="noopener noreferrer" href="https://doc.sitecore.net/" target="_blank" title="Sitecore Documentation site">Sitecore Documentation site</a></p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6830b28e-5c64-4f5e-a1eb-22540bc93682"
+    - ID: "b2926b8f-afe5-4fa4-9a05-c96beb56bc6f"
+      Hint: Title
+      Value: Getting Started with Sitecore Helix
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220204T084101Z
